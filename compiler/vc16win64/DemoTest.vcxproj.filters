@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\src\Common\wavefront.cpp" />
+    <ClCompile Include="..\..\src\DemoTest\DemoProjectRender.cpp" />
+    <ClCompile Include="..\..\src\GameDemo\DemoProject.cpp" />
+    <ClCompile Include="..\..\src\Common\Camera.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Common\CpuTimer.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Common\d3dApp.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Common\d3dUtil.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Common\DDSTextureLoader11.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Common\DXTrace.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Common\RenderStates.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Common\WICTextureLoader11.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\GameDemo\GameApp.cpp" />
+    <ClCompile Include="..\..\src\GameDemo\Main.cpp" />
+    <ClCompile Include="..\..\src\Common\Buffer.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Common\CameraController.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Common\Collision.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Common\DebugLayer.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Common\EffectHelper.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Common\GameObject.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Common\Geometry.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Common\GpuTimer.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Common\ImGuiLog.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Common\ModelManager.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Common\ScreenGrab11.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Common\Texture2D.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Common\TextureManager.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Common\Waves.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Common\MathHelper.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\GameDemo\BasicEffect.cpp" />
+    <ClCompile Include="..\..\src\GameDemo\ShadowEffect.cpp" />
+    <ClCompile Include="..\..\src\GameDemo\SkyboxEffect.cpp" />
+    <ClCompile Include="..\..\src\Physics\PhysicsX.cpp" />
+    <ClCompile Include="..\..\src\ImGui\imgui_demo.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ImGui\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ImGui\imgui_impl_dx11.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ImGui\imgui_impl_win32.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ImGui\imgui_tables.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ImGui\imgui_widgets.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ImGui\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Common\glad.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\Common\wavefront.h" />
+    <ClInclude Include="..\..\src\GameDemo\DemoProject.h" />
+    <ClInclude Include="..\..\src\Render\Render.h" />
+    <ClInclude Include="..\..\src\Common\Camera.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Common\CpuTimer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Common\d3dApp.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Common\d3dUtil.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Common\DDSTextureLoader11.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Common\DXTrace.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Common\Geometry.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Common\LightHelper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Common\RenderStates.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Common\Transform.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Common\Vertex.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Common\WICTextureLoader11.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Common\WinMin.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\GameDemo\GameApp.h" />
+    <ClInclude Include="..\..\src\Common\Buffer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Common\CameraController.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Common\Collision.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Common\D3DFormat.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Common\DebugLayer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Common\EffectHelper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Common\FrameworkFoundation.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Common\GameObject.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Common\GpuTimer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Common\IEffect.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Common\ImGuiLog.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Common\Material.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Common\MeshData.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Common\ModelManager.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Common\Property.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Common\PVD.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Common\PxTkFile.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Common\ScreenGrab11.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Common\stb_image.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Common\Texture2D.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Common\TextureManager.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Common\Waves.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Common\XUtil.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Common\MathHelper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Common\EffectsX.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ImGui\imconfig.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ImGui\imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ImGui\imgui_impl_dx11.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ImGui\imgui_impl_win32.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ImGui\imgui_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ImGui\imstb_rectpack.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ImGui\imstb_textedit.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ImGui\imstb_truetype.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{3437a0f3-0f05-450f-bf5d-7794eb6d5bbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer">
+      <UniqueIdentifier>{4ac9960a-dff1-4a57-ba85-bfe56b159a7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{e180c5d6-bf97-47e1-9fd9-d16d576d48c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{492abe54-5621-4b0d-89a0-a2a243ad3728}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\src\Common\CMakeLists.txt">
+      <Filter>Common</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\Basic.hlsli">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shaders\LightHelper.hlsli">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shaders\Basic.hlsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shaders\Basic_3D_PX.hlsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shaders\Basic_3D_VS.hlsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shaders\LightHelper.hlsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shaders\Shadow.hlsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shaders\Skybox.hlsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="..\..\src\Render\Render.cpp" />
+  </ItemGroup>
+</Project>

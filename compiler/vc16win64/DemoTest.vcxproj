@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\Common\Buffer.cpp" />
+    <ClCompile Include="..\..\src\Common\Camera.cpp" />
+    <ClCompile Include="..\..\src\Common\CameraController.cpp" />
+    <ClCompile Include="..\..\src\Common\Collision.cpp" />
+    <ClCompile Include="..\..\src\Common\CpuTimer.cpp" />
+    <ClCompile Include="..\..\src\Common\d3dApp.cpp" />
+    <ClCompile Include="..\..\src\Common\d3dUtil.cpp" />
+    <ClCompile Include="..\..\src\Common\DDSTextureLoader11.cpp" />
+    <ClCompile Include="..\..\src\Common\DebugLayer.cpp" />
+    <ClCompile Include="..\..\src\Common\DXTrace.cpp" />
+    <ClCompile Include="..\..\src\Common\EffectHelper.cpp" />
+    <ClCompile Include="..\..\src\Common\GameObject.cpp" />
+    <ClCompile Include="..\..\src\Common\Geometry.cpp" />
+    <ClCompile Include="..\..\src\Common\glad.c" />
+    <ClCompile Include="..\..\src\Common\GpuTimer.cpp" />
+    <ClCompile Include="..\..\src\Common\ImGuiLog.cpp" />
+    <ClCompile Include="..\..\src\Common\MathHelper.cpp" />
+    <ClCompile Include="..\..\src\Common\ModelManager.cpp" />
+    <ClCompile Include="..\..\src\Common\RenderStates.cpp" />
+    <ClCompile Include="..\..\src\Common\ScreenGrab11.cpp" />
+    <ClCompile Include="..\..\src\Common\Texture2D.cpp" />
+    <ClCompile Include="..\..\src\Common\TextureManager.cpp" />
+    <ClCompile Include="..\..\src\Common\wavefront.cpp" />
+    <ClCompile Include="..\..\src\Common\Waves.cpp" />
+    <ClCompile Include="..\..\src\Common\WICTextureLoader11.cpp" />
+    <ClCompile Include="..\..\src\DemoTest\DemoProjectRender.cpp" />
+    <ClCompile Include="..\..\src\GameDemo\BasicEffect.cpp" />
+    <ClCompile Include="..\..\src\GameDemo\DemoProject.cpp" />
+    <ClCompile Include="..\..\src\GameDemo\GameApp.cpp" />
+    <ClCompile Include="..\..\src\GameDemo\Main.cpp" />
+    <ClCompile Include="..\..\src\GameDemo\ShadowEffect.cpp" />
+    <ClCompile Include="..\..\src\GameDemo\SkyboxEffect.cpp" />
+    <ClCompile Include="..\..\src\ImGui\imgui.cpp" />
+    <ClCompile Include="..\..\src\ImGui\imgui_demo.cpp" />
+    <ClCompile Include="..\..\src\ImGui\imgui_draw.cpp" />
+    <ClCompile Include="..\..\src\ImGui\imgui_impl_dx11.cpp" />
+    <ClCompile Include="..\..\src\ImGui\imgui_impl_win32.cpp" />
+    <ClCompile Include="..\..\src\ImGui\imgui_tables.cpp" />
+    <ClCompile Include="..\..\src\ImGui\imgui_widgets.cpp" />
+    <ClCompile Include="..\..\src\Physics\PhysicsX.cpp" />
+    <None Include="..\..\src\Render\Render.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\Common\Buffer.h" />
+    <ClInclude Include="..\..\src\Common\Camera.h" />
+    <ClInclude Include="..\..\src\Common\CameraController.h" />
+    <ClInclude Include="..\..\src\Common\Collision.h" />
+    <ClInclude Include="..\..\src\Common\CpuTimer.h" />
+    <ClInclude Include="..\..\src\Common\d3dApp.h" />
+    <ClInclude Include="..\..\src\Common\D3DFormat.h" />
+    <ClInclude Include="..\..\src\Common\d3dUtil.h" />
+    <ClInclude Include="..\..\src\Common\DDSTextureLoader11.h" />
+    <ClInclude Include="..\..\src\Common\DebugLayer.h" />
+    <ClInclude Include="..\..\src\Common\DXTrace.h" />
+    <ClInclude Include="..\..\src\Common\EffectHelper.h" />
+    <ClInclude Include="..\..\src\Common\EffectsX.h" />
+    <ClInclude Include="..\..\src\Common\FrameworkFoundation.h" />
+    <ClInclude Include="..\..\src\Common\GameObject.h" />
+    <ClInclude Include="..\..\src\Common\Geometry.h" />
+    <ClInclude Include="..\..\src\Common\GpuTimer.h" />
+    <ClInclude Include="..\..\src\Common\IEffect.h" />
+    <ClInclude Include="..\..\src\Common\ImGuiLog.h" />
+    <ClInclude Include="..\..\src\Common\LightHelper.h" />
+    <ClInclude Include="..\..\src\Common\Material.h" />
+    <ClInclude Include="..\..\src\Common\MathHelper.h" />
+    <ClInclude Include="..\..\src\Common\MeshData.h" />
+    <ClInclude Include="..\..\src\Common\ModelManager.h" />
+    <ClInclude Include="..\..\src\Common\Property.h" />
+    <ClInclude Include="..\..\src\Common\PVD.h" />
+    <ClInclude Include="..\..\src\Common\PxTkFile.h" />
+    <ClInclude Include="..\..\src\Common\RenderStates.h" />
+    <ClInclude Include="..\..\src\Common\ScreenGrab11.h" />
+    <ClInclude Include="..\..\src\Common\stb_image.h" />
+    <ClInclude Include="..\..\src\Common\Texture2D.h" />
+    <ClInclude Include="..\..\src\Common\TextureManager.h" />
+    <ClInclude Include="..\..\src\Common\Transform.h" />
+    <ClInclude Include="..\..\src\Common\Vertex.h" />
+    <ClInclude Include="..\..\src\Common\wavefront.h" />
+    <ClInclude Include="..\..\src\Common\Waves.h" />
+    <ClInclude Include="..\..\src\Common\WICTextureLoader11.h" />
+    <ClInclude Include="..\..\src\Common\WinMin.h" />
+    <ClInclude Include="..\..\src\Common\XUtil.h" />
+    <ClInclude Include="..\..\src\GameDemo\DemoProject.h" />
+    <ClInclude Include="..\..\src\GameDemo\GameApp.h" />
+    <ClInclude Include="..\..\src\ImGui\imconfig.h" />
+    <ClInclude Include="..\..\src\ImGui\imgui.h" />
+    <ClInclude Include="..\..\src\ImGui\imgui_impl_dx11.h" />
+    <ClInclude Include="..\..\src\ImGui\imgui_impl_win32.h" />
+    <ClInclude Include="..\..\src\ImGui\imgui_internal.h" />
+    <ClInclude Include="..\..\src\ImGui\imstb_rectpack.h" />
+    <ClInclude Include="..\..\src\ImGui\imstb_textedit.h" />
+    <ClInclude Include="..\..\src\ImGui\imstb_truetype.h" />
+    <ClInclude Include="..\..\src\Render\Render.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\src\Common\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\Basic.hlsl">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="Shaders\Basic_3D_PX.hlsl">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="Shaders\Basic_3D_VS.hlsl">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="Shaders\LightHelper.hlsl">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="Shaders\Shadow.hlsl">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="Shaders\Skybox.hlsl">
+      <FileType>Document</FileType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\Basic.hlsli" />
+    <None Include="Shaders\LightHelper.hlsli" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{809F8893-32BA-4FD4-86B6-F825B7778A82}</ProjectGuid>
+    <RootNamespace>Project1</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>DemoProject</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>
+    </WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>./../../../bin/vc16win64\</OutDir>
+    <IntDir>./x64/GameDemo/debug\</IntDir>
+    <TargetName>$(ProjectName)DEBUG</TargetName>
+    <IncludePath>../../src/Common/.;../../src/GameDemo/.;$(IncludePath)</IncludePath>
+    <LibraryPath>../../src/zlib/Debug;../../lib/Common/Debug;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>./../../../bin/vc16win64\</OutDir>
+    <IntDir>./x64/GameDemo/debug\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>E:\PhysX Visual Debugger\PhysX-3.4-master\PhysX-3.4-master\PxShared\include;E:\PhysX Visual Debugger\PhysX-3.4-master\PhysX-3.4-master\PxShared\src\foundation\include;E:\PhysX Visual Debugger\PhysX-3.4-master\PhysX-3.4-master\PhysX_3.4\Include;E:\PhysX Visual Debugger\PhysX-3.4-master\PhysX-3.4-master\PhysX_3.4\Snippets\Graphics\include\win32\GL;E:\PhysX Visual Debugger\PhysX-3.4-master\PhysX-3.4-master\PxShared\src\fastxml\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>
+      </SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>../../src/;../../src/ImGui/.;./../../../Include/.;./../../../../PxShared/include;./../../../../PxShared/src/foundation/include;./../../../../PxShared/src/fastxml/include;./../../Graphics/include/win32/GL;./../../src/assimp/include/assimp/.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <WarningVersion>18</WarningVersion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
+      <PreprocessorDefinitions>NOMINMAX;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ProgramDataBaseFileName>$(IntDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>./../../lib/vc16win64;./../../../Common/lib/vc16win64;./../../../../PxShared/lib/vc16win64;./../../Graphics/lib/win64/glut;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Common.lib;zlibstaticd.lib;assimp-vc142-mt.lib;Winmm.lib;OpenGL32.lib;glut32.lib;d3d11.lib;dxgi.lib;dxguid.lib;D3DCompiler.lib;winmm.lib;..\..\src\ImGui\Debug\ImGui.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/LIBPATH:../../../Lib/vc16win64 PhysX3CommonDEBUG_x64.lib PhysX3DEBUG_x64.lib PhysX3CookingDEBUG_x64.lib PhysX3CharacterKinematicDEBUG_x64.lib PhysX3ExtensionsDEBUG.lib PhysX3VehicleDEBUG.lib PxTaskDEBUG_x64.lib PxFoundationDEBUG_x64.lib PsFastXmlDEBUG_x64.lib PxPvdSDKDEBUG_x64.lib  /LIBPATH:../../lib/vc16win64 UtilsDEBUG.lib /DEBUG /ignore:4099</AdditionalOptions>
+    </Link>
+    <PostBuildEvent>
+      <Command>XCOPY "../../../../PxShared/bin\vc16win64\PxFoundationDEBUG_x64.dll" "$(OutDir)" /D /Y
+ XCOPY "../../../../PxShared/bin\vc16win64\PxPvdSDKDEBUG_x64.dll" "$(OutDir)" /D /Y
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <SDLCheck>
+      </SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>./../../../Include;./../../../../PxShared/include;./../../../../PxShared/src/foundation/include;./../../../../PxShared/src/fastxml/include;./../../Graphics/include/win32/GL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <PreprocessorDefinitions>_HAS_EXCEPTIONS=0;WIN32;WIN64;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_WINSOCK_DEPRECATED_NO_WARNINGS;PHYSX_PROFILE_SDK;RENDER_SNIPPET;NDEBUG;PX_SUPPORT_PVD=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>Winmm.lib;OpenGL32.lib;glut32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>./../../../Common/lib/vc16win64;./../../lib/vc16win64;./../../../../PxShared/lib/vc16win64;./../../Graphics/lib/win64/glut;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>/INCREMENTAL:NO /LIBPATH:../../../Lib/vc16win64 PhysX3Common_x64.lib PhysX3_x64.lib PhysX3Cooking_x64.lib PhysX3CharacterKinematic_x64.lib PhysX3Extensions.lib PhysX3Vehicle.lib PxTask_x64.lib PxFoundation_x64.lib PsFastXml_x64.lib PxPvdSDK_x64.lib /LIBPATH:../../lib/vc16win64 Utils.lib</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

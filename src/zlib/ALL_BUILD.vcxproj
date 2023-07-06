@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FA9F3ACF-2DB6-3016-8386-98B6522E3633}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\实训\DirectX11-With-Windows-SDK-master\build\assimp\include;D:\实训\DirectX11-With-Windows-SDK-master\build\assimp;D:\实训\DirectX11-With-Windows-SDK-master\assimp\include;D:\实训\DirectX11-With-Windows-SDK-master\assimp\code;D:\实训\DirectX11-With-Windows-SDK-master\assimp\.;D:\实训\DirectX11-With-Windows-SDK-master\assimp\contrib\zlib;D:\实训\DirectX11-With-Windows-SDK-master\build\assimp\contrib\zlib;D:\实训\DirectX11-With-Windows-SDK-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\实训\DirectX11-With-Windows-SDK-master\build\assimp\include;D:\实训\DirectX11-With-Windows-SDK-master\build\assimp;D:\实训\DirectX11-With-Windows-SDK-master\assimp\include;D:\实训\DirectX11-With-Windows-SDK-master\assimp\code;D:\实训\DirectX11-With-Windows-SDK-master\assimp\.;D:\实训\DirectX11-With-Windows-SDK-master\assimp\contrib\zlib;D:\实训\DirectX11-With-Windows-SDK-master\build\assimp\contrib\zlib;D:\实训\DirectX11-With-Windows-SDK-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\实训\DirectX11-With-Windows-SDK-master\assimp\contrib\zlib\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/实训/DirectX11-With-Windows-SDK-master/assimp/contrib/zlib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\cmake\bin\cmake.exe -SD:/实训/DirectX11-With-Windows-SDK-master -BD:/实训/DirectX11-With-Windows-SDK-master/build --check-stamp-file D:/实训/DirectX11-With-Windows-SDK-master/build/assimp/contrib/zlib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\cmake\share\cmake-3.25\Modules\CheckCSourceCompiles.cmake;D:\cmake\share\cmake-3.25\Modules\CheckFunctionExists.cmake;D:\cmake\share\cmake-3.25\Modules\CheckIncludeFile.cmake;D:\cmake\share\cmake-3.25\Modules\CheckIncludeFileCXX.cmake;D:\cmake\share\cmake-3.25\Modules\CheckTypeSize.cmake;D:\cmake\share\cmake-3.25\Modules\Internal\CheckSourceCompiles.cmake;D:\实训\DirectX11-With-Windows-SDK-master\assimp\contrib\zlib\zconf.h.cmakein;D:\实训\DirectX11-With-Windows-SDK-master\assimp\contrib\zlib\zlib.pc.cmakein;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\实训\DirectX11-With-Windows-SDK-master\build\assimp\contrib\zlib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/实训/DirectX11-With-Windows-SDK-master/assimp/contrib/zlib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\cmake\bin\cmake.exe -SD:/实训/DirectX11-With-Windows-SDK-master -BD:/实训/DirectX11-With-Windows-SDK-master/build --check-stamp-file D:/实训/DirectX11-With-Windows-SDK-master/build/assimp/contrib/zlib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\cmake\share\cmake-3.25\Modules\CheckCSourceCompiles.cmake;D:\cmake\share\cmake-3.25\Modules\CheckFunctionExists.cmake;D:\cmake\share\cmake-3.25\Modules\CheckIncludeFile.cmake;D:\cmake\share\cmake-3.25\Modules\CheckIncludeFileCXX.cmake;D:\cmake\share\cmake-3.25\Modules\CheckTypeSize.cmake;D:\cmake\share\cmake-3.25\Modules\Internal\CheckSourceCompiles.cmake;D:\实训\DirectX11-With-Windows-SDK-master\assimp\contrib\zlib\zconf.h.cmakein;D:\实训\DirectX11-With-Windows-SDK-master\assimp\contrib\zlib\zlib.pc.cmakein;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\实训\DirectX11-With-Windows-SDK-master\build\assimp\contrib\zlib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\实训\DirectX11-With-Windows-SDK-master\build\ZERO_CHECK.vcxproj">
+      <Project>{3F886C63-D6C3-3F81-8A7C-100990C7016B}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\实训\DirectX11-With-Windows-SDK-master\build\assimp\contrib\zlib\zlibstatic.vcxproj">
+      <Project>{3530276E-348A-37C2-B4D2-705E6AA86F0F}</Project>
+      <Name>zlibstatic</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
